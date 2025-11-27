@@ -34,9 +34,5 @@ h1 {
 .goblin {
   width: 100px;
   height: 100px;
-  display: none;
-}
-
-.goblin.active {
   display: block;
 }

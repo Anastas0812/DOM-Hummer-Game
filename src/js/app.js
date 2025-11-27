@@ -1,5 +1,5 @@
 // TODO: write code here
-import { addGoblin, showRandomGoblin } from './myGame/myGame.js';
+import { showRandomGoblin } from './myGame/myGame.js';
 
 // comment this to pass build
 const unusedVariable = "variable";
@@ -13,8 +13,7 @@ console.log("app.js included");
 
 if (typeof window !== 'undefined') {
   window.onload = function() {
-    addGoblin();
-    setInterval(showRandomGoblin, 3000);
+    setInterval(showRandomGoblin, 1000);
   };
 };
   
